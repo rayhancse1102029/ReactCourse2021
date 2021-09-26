@@ -3,11 +3,18 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import { Col, Row } from 'react-bootstrap'
+import GetAllEmployee from '../../Models/Employee/GetAllEmployee'
 
 export default function Dashboard() {
     return (
-        <div>
-            
+        <div style={{marginTop:20}}>
+            <Row>
+                <Col md={8}>
+                    <GetAllEmployee></GetAllEmployee>
+                </Col>
+                <Col md={4}></Col>
+            </Row>
         </div>
     )
 }
