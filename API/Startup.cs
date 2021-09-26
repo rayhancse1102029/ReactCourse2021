@@ -1,3 +1,4 @@
+using API.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -5,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
@@ -27,10 +29,23 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddDbContext<APIDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DbConnection")));
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CrosPolicy",
+                        builder =>
+                        {
+                            builder.WithOrigins("http://localhost:3000", 
+                                                "http://www.contoso.com");
+                        });
             });
         }
 
@@ -49,7 +64,7 @@ namespace API
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors("CrosPolicy");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
