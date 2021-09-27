@@ -5,7 +5,6 @@ D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\API.deps.json
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\API.runtimeconfig.json
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\API.dll
-D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\ref\API.dll
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\API.pdb
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\Arch.EntityFrameworkCore.dll
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\Arch.EntityFrameworkCore.Abstractions.dll
@@ -137,3 +136,4 @@ D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\dotnet-aspnet-codegenera
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\DevRayhan\React\ReactCourse2021\API\obj\Debug\net5.0\refint\API.dll
