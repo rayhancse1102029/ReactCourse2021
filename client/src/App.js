@@ -1,14 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import TopNavbar from './Shared/Layout/TopNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dashboard from './Shared/Layout/Dashboard';
+import BasePage from './router/BasePage';
 
 function App() {
   return (
     <div>
-        <TopNavbar></TopNavbar>
-        <Dashboard></Dashboard>
+        <BasePage></BasePage>
     </div>
   );
 }

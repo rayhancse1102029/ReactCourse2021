@@ -136,4 +136,5 @@ D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\dotnet-aspnet-codegenera
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\DevRayhan\React\ReactCourse2021\API\obj\Debug\net5.0\refint\API.dll
+D:\DevRayhan\React\ReactCourse2021\API\bin\Debug\net5.0\ref\API.dll
+D:\DevRayhan\React\ReactCourse2021\API\obj\Debug\net5.0\API.csproj.CopyComplete
